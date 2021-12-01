@@ -51,7 +51,7 @@ plot_burndown(
   d_times,
   beg = as.Date("2021-10-28"), # day before
   end = as.Date("2021-12-02"), # day after
-  hrs = 51)
+  hrs = 36)
 
 # table ALL
 datatable(d_times)
@@ -66,7 +66,7 @@ plot_burndown(
   d_task,
   beg = as.Date("2021-10-28"), # day before
   end = as.Date("2021-11-10"), # day after
-  hrs = 6)
+  hrs = 1)
 
 datatable(d_task)
 ```
@@ -80,7 +80,7 @@ plot_burndown(
   d_task,
   beg = as.Date("2021-10-30"), # day before
   end = as.Date("2021-11-11"), # day after
-  hrs = 13)
+  hrs = 3)
 
 datatable(d_task)
 ```
@@ -94,7 +94,7 @@ plot_burndown(
   d_task,
   beg = as.Date("2021-11-15"), # day before
   end = as.Date("2021-11-19"), # day after
-  hrs = 6)
+  hrs = 3)
 
 datatable(d_task)
 ```
@@ -108,7 +108,7 @@ plot_burndown(
   d_task,
   beg = as.Date("2021-11-08"), # day before
   end = as.Date("2021-11-11"), # day after
-  hrs = 13)
+  hrs = 15)
 
 datatable(d_task)
 ```
@@ -122,7 +122,7 @@ plot_burndown(
   d_task,
   beg = as.Date("2021-10-31"), # day before
   end = as.Date("2021-12-01"), # day after
-  hrs = 6)
+  hrs = 10)
 
 datatable(d_task)
 ```
@@ -136,7 +136,7 @@ plot_burndown(
   d_task,
   beg = as.Date("2021-11-09"), # day before
   end = as.Date("2021-11-29"), # day after
-  hrs = 7)
+  hrs = 4)
 
 datatable(d_task)
 ```
